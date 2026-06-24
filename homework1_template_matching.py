@@ -11,12 +11,12 @@ IMAGE_DIR = DATA_DIR / "images"
 ANNOTATION_FILE = DATA_DIR / "annotations.json"
 RESULTS_DIR = Path("results")
 RESULTS_DIR.mkdir(exist_ok=True)
-TARGET_CLASS_NAME= "person"
+TARGET_CLASS_NAME= "halo"
 IMAGE_SIZE =256
 RANDOM_SEED = 42
-TEMPLATE_SCALES={256,128,64,32}
-MATCH_THRESHOLDS={0.45,0.5,0.55,0.6,0.65,0.7}
-AREA_THRESHOLDS={0.2,0.3,0.4,0.5}
+TEMPLATE_SCALES={128,64,32}
+MATCH_THRESHOLDS={0.2,0.3,0.4,0.5,0.6,0.7}
+AREA_THRESHOLDS={0.1,0.2,0.3,0.4,0.5}
 random.seed(RANDOM_SEED)
 np.random.seed(RANDOM_SEED)
 
@@ -44,9 +44,11 @@ def find_category_id(categories, target_class_name):
 def read_gray_resized(image_path):
     gray = cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
     if gray is None:
-        raise ValueError(f"Image at path {image_path} could not be read.")
+        return None
     resized=cv2.resize(gray,(IMAGE_SIZE,IMAGE_SIZE))
-    return resized
+    resized=cv2.equalizeHist(resized)
+    edges=cv2.Canny(resized,50,100)
+    return edges
 
 def scale_bbox_to_256(bbox, original_width, original_height):
     x, y, width, height = bbox
@@ -129,6 +131,8 @@ def build_templates(train_records):
     templates=[]
     for record in train_records:
         gray=read_gray_resized(record["image_path"])
+        if gray is None:
+            continue
         if not record["target_boxes"]:
             continue
         crop=xcrop_object_from_image(gray, record["target_boxes"][0])
@@ -185,11 +189,16 @@ def evaluate(records,templates,match_threshold,area_threshold):
     details=[]
     for record in records:
         gray=read_gray_resized(record["image_path"])
+        if gray is None:
+            continue
         predicted_object,pred_box,score =template_match_single_image(gray,templates,match_threshold)
         true_object=record["has_object"]
         if predicted_object:
             overlap_percentage=calculate_overlap_percentage(pred_box,record["target_boxes"])
-            final_prediction=overlap_percentage>=area_threshold
+            if record["has_object"]:
+                final_prediction = predicted_object and overlap_percentage >= area_threshold
+            else:
+                final_prediction = predicted_object
         else:
             final_prediction=False
             overlap_percentage=0.0
@@ -214,11 +223,47 @@ def evaluate(records,templates,match_threshold,area_threshold):
     }
     return metrics,details
 
+def precompute_matches(records, templates):
+    cache = []
+    for record in records:
+        gray = read_gray_resized(record["image_path"])
+        if gray is None:
+            continue
+        _, box, score = template_match_single_image(gray, templates, -1.0)
+        overlap = calculate_overlap_percentage(box, record["target_boxes"])
+        cache.append((record, score, overlap))
+    return cache
+
+def evaluate_cached(cache, match_threshold, area_threshold):
+    y_true, y_pred = [], []
+    for record, score, overlap in cache:
+        predicted_object = score >= match_threshold
+        if record["has_object"]:
+            final_prediction = predicted_object and overlap >= area_threshold
+        else:
+            final_prediction = predicted_object
+        y_true.append(1 if record["has_object"] else 0)
+        y_pred.append(1 if final_prediction else 0)
+    return {
+        "accuracy": accuracy_score(y_true, y_pred),
+        "precision": precision_score(y_true, y_pred, zero_division=0),
+        "recall": recall_score(y_true, y_pred, zero_division=0),
+        "f1_score": f1_score(y_true, y_pred, zero_division=0),
+        "confusion_matrix": confusion_matrix(y_true, y_pred).tolist(),
+        "classification_report": classification_report(y_true, y_pred, zero_division=0, output_dict=True)
+
+    }
+
 def optimize_thresholds(validation_records,templates):
     best_results=None
+    all_rows=[]
+    cache = precompute_matches(validation_records, templates)
     for match_threshold in MATCH_THRESHOLDS:
         for area_threshold in AREA_THRESHOLDS:
-            metrics,_=evaluate(validation_records,templates,match_threshold,area_threshold)
+            metrics=evaluate_cached(cache, match_threshold, area_threshold)
+            all_rows.append({"match":match_threshold, "area": area_threshold, "accuracy": metrics["accuracy"],
+                              "precision": metrics["precision"], "recall": metrics["recall"],
+                                "f1_score": metrics["f1_score"]})
             current={"match_threshold": match_threshold, "area_threshold": area_threshold, "metrics": metrics
                      }
             if best_results is None or metrics["f1_score"]>best_results["metrics"]["f1_score"]:
@@ -227,6 +272,8 @@ def optimize_thresholds(validation_records,templates):
                 f"match={match_threshold}, area={area_threshold}, accuracy={metrics['accuracy']:.4f}, precision={metrics['precision']:.4f}, recall={metrics['recall']:.4f}, f1_score={metrics['f1_score']:.4f}"
                 
             )
+            save_metrics(f"validation_match_{match_threshold}_area_{area_threshold}", current)
+    save_metrics("validation_grid", all_rows)
     return best_results
 
             
@@ -236,33 +283,20 @@ def save_metrics(name,result):
         json.dump(result,f,indent=2,ensure_ascii=False)
     print(f"Saved metrics to {output_path}")
 
-def save_detection_visual(record,templates,match_threshold):
-
-    image=cv2.imread(str(record["image_path"]))
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    gray = cv2.resize(gray, (IMAGE_SIZE, IMAGE_SIZE))
-
+def save_detection_visual(record, templates, match_threshold):
+    image = cv2.imread(str(record["image_path"]))
+    edges = read_gray_resized(record["image_path"])      # eşleştirme girişi = kenar
     predicted_object, pred_box, score = template_match_single_image(
-        gray,
-        templates,
-        match_threshold
+        edges, templates, match_threshold
     )
-    resized_color=cv2.resize(image, (IMAGE_SIZE, IMAGE_SIZE))
+    resized_color = cv2.resize(image, (IMAGE_SIZE, IMAGE_SIZE))   # çizim için renkli
     if predicted_object and pred_box is not None:
         x1, y1, x2, y2 = pred_box
         cv2.rectangle(resized_color, (x1, y1), (x2, y2), (0, 255, 0), 2)
-        cv2.putText(
-            resized_color,
-            f"{TARGET_CLASS_NAME} ({score:.2f})",
-            (x1,max(20,y1-5)),
-            cv2.FONT_HERSHEY_SIMPLEX,
-            0.5,
-            (0, 255, 0),
-            1
-        )
-        output_path=RESULTS_DIR / "sample_detection.jpg"
-        cv2.imwrite(str(output_path), resized_color)
-        print(f"Saved sample detection visualization to {output_path}")
+        cv2.putText(resized_color, f"{TARGET_CLASS_NAME} ({score:.2f})",
+                    (x1, max(20, y1 - 5)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1)
+        cv2.imwrite(str(RESULTS_DIR / "sample_detection.jpg"), resized_color)
+        print(f"Saved sample detection visualization to {RESULTS_DIR / 'sample_detection.jpg'}")
 
 def main():
     images, categories, annotations_by_image = load_coco_annotations(ANNOTATION_FILE)

@@ -1,0 +1,11 @@
+# Dataset (large — not versioned)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+Thumbs.db
+.DS_Store
