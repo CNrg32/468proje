@@ -11,10 +11,12 @@ IMAGE_DIR = DATA_DIR / "images"
 ANNOTATION_FILE = DATA_DIR / "annotations.json"
 RESULTS_DIR = Path("results")
 RESULTS_DIR.mkdir(exist_ok=True)
-TARGET_CLASS_NAME= "halo"
+TARGET_CLASS_NAME= "halo"  
+TARGET_CLASSES = ["angel", "horse", "boat", "bird", "book", "dog", "crown"]
 IMAGE_SIZE =256
 RANDOM_SEED = 42
-TEMPLATE_SCALES={128,64,32}
+TEMPLATE_SCALES={256,128,64,32}
+STRIDE_RATIOS={0.25,0.5,1.0}  
 MATCH_THRESHOLDS={0.2,0.3,0.4,0.5,0.6,0.7}
 AREA_THRESHOLDS={0.1,0.2,0.3,0.4,0.5}
 random.seed(RANDOM_SEED)
@@ -48,7 +50,7 @@ def read_gray_resized(image_path):
     resized=cv2.resize(gray,(IMAGE_SIZE,IMAGE_SIZE))
     resized=cv2.equalizeHist(resized)
     edges=cv2.Canny(resized,50,100)
-    return edges
+    return resized
 
 def scale_bbox_to_256(bbox, original_width, original_height):
     x, y, width, height = bbox
@@ -161,7 +163,7 @@ def calculate_overlap_percentage(pred_box,true_boxes):
             best_percentage=max(best_percentage,percentage)
     return best_percentage
 
-def template_match_single_image(gray_image,templates,match_threshold):
+def template_match_single_image(gray_image,templates,match_threshold,stride_ratio=1.0):
     best_score=-1.0
     best_box=None
     for template in templates:
@@ -172,9 +174,12 @@ def template_match_single_image(gray_image,templates,match_threshold):
             if scaled_template.shape[0]>gray_image.shape[0] or scaled_template.shape[1]>gray_image.shape[1]:
                 continue
             result=cv2.matchTemplate(gray_image,scaled_template,cv2.TM_CCOEFF_NORMED)
+            stride=max(1,int(scale*stride_ratio))
+            if stride>1:
+                result=result[::stride,::stride]
             _,max_val,_,max_loc=cv2.minMaxLoc(result)
             if max_val>best_score:
-                x1,y1=max_loc
+                x1,y1=max_loc[0]*stride,max_loc[1]*stride
                 x2=x1+scale
                 y2=y1+scale
                 best_score=max_val
@@ -183,7 +188,7 @@ def template_match_single_image(gray_image,templates,match_threshold):
         return True,best_box,best_score
     return False,None,best_score
 
-def evaluate(records,templates,match_threshold,area_threshold):
+def evaluate(records,templates,match_threshold,area_threshold,stride_ratio=1.0):
     y_true=[]
     y_pred=[]
     details=[]
@@ -191,7 +196,7 @@ def evaluate(records,templates,match_threshold,area_threshold):
         gray=read_gray_resized(record["image_path"])
         if gray is None:
             continue
-        predicted_object,pred_box,score =template_match_single_image(gray,templates,match_threshold)
+        predicted_object,pred_box,score =template_match_single_image(gray,templates,match_threshold,stride_ratio)
         true_object=record["has_object"]
         if predicted_object:
             overlap_percentage=calculate_overlap_percentage(pred_box,record["target_boxes"])
@@ -223,13 +228,13 @@ def evaluate(records,templates,match_threshold,area_threshold):
     }
     return metrics,details
 
-def precompute_matches(records, templates):
+def precompute_matches(records, templates, stride_ratio):
     cache = []
     for record in records:
         gray = read_gray_resized(record["image_path"])
         if gray is None:
             continue
-        _, box, score = template_match_single_image(gray, templates, -1.0)
+        _, box, score = template_match_single_image(gray, templates, -1.0, stride_ratio)
         overlap = calculate_overlap_percentage(box, record["target_boxes"])
         cache.append((record, score, overlap))
     return cache
@@ -254,28 +259,26 @@ def evaluate_cached(cache, match_threshold, area_threshold):
 
     }
 
-def optimize_thresholds(validation_records,templates):
+def optimize_thresholds(validation_records,templates, tag=""):
     best_results=None
     all_rows=[]
-    cache = precompute_matches(validation_records, templates)
-    for match_threshold in MATCH_THRESHOLDS:
-        for area_threshold in AREA_THRESHOLDS:
-            metrics=evaluate_cached(cache, match_threshold, area_threshold)
-            all_rows.append({"match":match_threshold, "area": area_threshold, "accuracy": metrics["accuracy"],
-                              "precision": metrics["precision"], "recall": metrics["recall"],
-                                "f1_score": metrics["f1_score"]})
-            current={"match_threshold": match_threshold, "area_threshold": area_threshold, "metrics": metrics
-                     }
-            if best_results is None or metrics["f1_score"]>best_results["metrics"]["f1_score"]:
-                best_results=current
-            print(
-                f"match={match_threshold}, area={area_threshold}, accuracy={metrics['accuracy']:.4f}, precision={metrics['precision']:.4f}, recall={metrics['recall']:.4f}, f1_score={metrics['f1_score']:.4f}"
-                
-            )
-            save_metrics(f"validation_match_{match_threshold}_area_{area_threshold}", current)
-    save_metrics("validation_grid", all_rows)
+    for stride_ratio in STRIDE_RATIOS:
+        cache = precompute_matches(validation_records, templates, stride_ratio)
+        for match_threshold in MATCH_THRESHOLDS:
+            for area_threshold in AREA_THRESHOLDS:
+                metrics=evaluate_cached(cache, match_threshold, area_threshold)
+                all_rows.append({"stride_ratio": stride_ratio, "match": match_threshold, "area": area_threshold,
+                                 "accuracy": metrics["accuracy"], "precision": metrics["precision"],
+                                 "recall": metrics["recall"], "f1_score": metrics["f1_score"]})
+                current={"stride_ratio": stride_ratio, "match_threshold": match_threshold,
+                         "area_threshold": area_threshold, "metrics": metrics}
+                if best_results is None or metrics["f1_score"]>best_results["metrics"]["f1_score"]:
+                    best_results=current
+                print(f"stride={stride_ratio}, match={match_threshold}, area={area_threshold}, "
+                      f"accuracy={metrics['accuracy']:.4f}, precision={metrics['precision']:.4f}, "
+                      f"recall={metrics['recall']:.4f}, f1_score={metrics['f1_score']:.4f}")
+    save_metrics(f"validation_grid[{tag}]", all_rows)
     return best_results
-
             
 def save_metrics(name,result):
     output_path=RESULTS_DIR / f"{name}_metrics.json"
@@ -283,11 +286,11 @@ def save_metrics(name,result):
         json.dump(result,f,indent=2,ensure_ascii=False)
     print(f"Saved metrics to {output_path}")
 
-def save_detection_visual(record, templates, match_threshold):
+def save_detection_visual(record, templates, match_threshold, stride_ratio=1.0):
     image = cv2.imread(str(record["image_path"]))
     edges = read_gray_resized(record["image_path"])      # eşleştirme girişi = kenar
     predicted_object, pred_box, score = template_match_single_image(
-        edges, templates, match_threshold
+        edges, templates, match_threshold, stride_ratio
     )
     resized_color = cv2.resize(image, (IMAGE_SIZE, IMAGE_SIZE))   # çizim için renkli
     if predicted_object and pred_box is not None:
@@ -299,47 +302,61 @@ def save_detection_visual(record, templates, match_threshold):
         print(f"Saved sample detection visualization to {RESULTS_DIR / 'sample_detection.jpg'}")
 
 def main():
+    global TARGET_CLASS_NAME
     images, categories, annotations_by_image = load_coco_annotations(ANNOTATION_FILE)
-    target_category_id = find_category_id(categories, TARGET_CLASS_NAME)
 
-    records = get_records(images, annotations_by_image, target_category_id)
-    train_records, validation_records, test_records = split_dataset(records)
+    summary = []
+    for class_name in TARGET_CLASSES:
+        print(f"\n========== CLASS: {class_name} ==========")
+        TARGET_CLASS_NAME = class_name
+        try:
+            target_category_id = find_category_id(categories, class_name)
+            records = get_records(images, annotations_by_image, target_category_id)
+            train_records, validation_records, test_records = split_dataset(records)
+        except ValueError as e:
+            print(f"  ATLANDI ({class_name}): {e}")
+            continue
 
-    templates = build_templates(train_records)
-    print(f"Template count: {len(templates)}")
+        templates = build_templates(train_records)
+        print(f"Template count: {len(templates)}")
 
-    print("\nValidation threshold search:")
-    best_validation = optimize_thresholds(validation_records, templates)
-    save_metrics("validation_best", best_validation)
+        best_validation = optimize_thresholds(validation_records, templates, f"_{class_name}")
+        bs = best_validation["stride_ratio"]
+        bm = best_validation["match_threshold"]
+        ba = best_validation["area_threshold"]
 
-    best_match_threshold = best_validation["match_threshold"]
-    best_area_threshold = best_validation["area_threshold"]
+        print("\nTesting with best thresholds:")
+        test_metrics, test_details = evaluate(test_records, templates, bm, ba, bs)
+        print(f"  {class_name}: stride={bs} match={bm} area={ba} -> test F1={test_metrics['f1_score']:.4f}")
 
-    print("\nTesting with best thresholds:")
-    test_metrics, test_details = evaluate(
-        test_records,
-        templates,
-        best_match_threshold,
-        best_area_threshold
-    )
+        save_metrics(f"test_{class_name}", {
+            "class": class_name, "stride_ratio": bs,
+            "match_threshold": bm, "area_threshold": ba,
+            "metrics": test_metrics, "details": test_details,
+        })
+        summary.append({
+            "class": class_name, "stride_ratio": bs,
+            "match_threshold": bm, "area_threshold": ba,
+            "accuracy": test_metrics["accuracy"], "precision": test_metrics["precision"],
+            "recall": test_metrics["recall"], "f1_score": test_metrics["f1_score"],
+            "confusion_matrix": test_metrics["confusion_matrix"],
+        })
 
-    test_result = {
-        "match_threshold": best_match_threshold,
-        "area_threshold": best_area_threshold,
-        "metrics": test_metrics,
-        "details": test_details
-    }
+        pos = [r for r in test_records if r["has_object"]]
+        if pos:
+            save_detection_visual(pos[0], templates, bm, bs)
 
-    print(test_metrics["classification_report"])
-    print("Confusion matrix:")
-    print(np.array(test_metrics["confusion_matrix"]))
+    if summary:
+        macro = {k: float(np.mean([s[k] for s in summary]))
+                 for k in ["accuracy", "precision", "recall", "f1_score"]}
+        save_metrics("summary_all_classes", {"per_class": summary, "macro": macro})
+        print("\n===== MACRO (tüm sınıflar ortalaması) =====")
+        print(f"acc={macro['accuracy']:.4f} prec={macro['precision']:.4f} "
+              f"rec={macro['recall']:.4f} f1={macro['f1_score']:.4f}")
 
-    save_metrics("test", test_result)
 
-    positive_test_records = [r for r in test_records if r["has_object"]]
-    if positive_test_records:
-        save_detection_visual(positive_test_records[0], templates, best_match_threshold)
-
+if __name__ == "__main__":
+    main()
 
 if __name__ == "__main__":
     main()

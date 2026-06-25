@@ -1,0 +1,812 @@
+[
+  {
+    "stride_ratio": 0.25,
+    "match": 0.2,
+    "area": 0.1,
+    "accuracy": 0.01,
+    "precision": 0.013157894736842105,
+    "recall": 0.04,
+    "f1_score": 0.019801980198019802
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.2,
+    "area": 0.4,
+    "accuracy": 0.00375,
+    "precision": 0.004975124378109453,
+    "recall": 0.015,
+    "f1_score": 0.007471980074719801
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.2,
+    "area": 0.3,
+    "accuracy": 0.0075,
+    "precision": 0.009900990099009901,
+    "recall": 0.03,
+    "f1_score": 0.01488833746898263
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.2,
+    "area": 0.2,
+    "accuracy": 0.0075,
+    "precision": 0.009900990099009901,
+    "recall": 0.03,
+    "f1_score": 0.01488833746898263
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.2,
+    "area": 0.5,
+    "accuracy": 0.00375,
+    "precision": 0.004975124378109453,
+    "recall": 0.015,
+    "f1_score": 0.007471980074719801
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.4,
+    "area": 0.1,
+    "accuracy": 0.015,
+    "precision": 0.013245033112582781,
+    "recall": 0.04,
+    "f1_score": 0.01990049751243781
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.4,
+    "area": 0.4,
+    "accuracy": 0.00875,
+    "precision": 0.005008347245409015,
+    "recall": 0.015,
+    "f1_score": 0.007509386733416771
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.4,
+    "area": 0.3,
+    "accuracy": 0.0125,
+    "precision": 0.009966777408637873,
+    "recall": 0.03,
+    "f1_score": 0.014962593516209476
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.4,
+    "area": 0.2,
+    "accuracy": 0.0125,
+    "precision": 0.009966777408637873,
+    "recall": 0.03,
+    "f1_score": 0.014962593516209476
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.4,
+    "area": 0.5,
+    "accuracy": 0.00875,
+    "precision": 0.005008347245409015,
+    "recall": 0.015,
+    "f1_score": 0.007509386733416771
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.6,
+    "area": 0.1,
+    "accuracy": 0.28625,
+    "precision": 0.01818181818181818,
+    "recall": 0.035,
+    "f1_score": 0.023931623931623933
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.6,
+    "area": 0.4,
+    "accuracy": 0.28,
+    "precision": 0.005263157894736842,
+    "recall": 0.01,
+    "f1_score": 0.006896551724137931
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.6,
+    "area": 0.3,
+    "accuracy": 0.28375,
+    "precision": 0.013054830287206266,
+    "recall": 0.025,
+    "f1_score": 0.017152658662092625
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.6,
+    "area": 0.2,
+    "accuracy": 0.28375,
+    "precision": 0.013054830287206266,
+    "recall": 0.025,
+    "f1_score": 0.017152658662092625
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.6,
+    "area": 0.5,
+    "accuracy": 0.28,
+    "precision": 0.005263157894736842,
+    "recall": 0.01,
+    "f1_score": 0.006896551724137931
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.3,
+    "area": 0.1,
+    "accuracy": 0.01,
+    "precision": 0.013157894736842105,
+    "recall": 0.04,
+    "f1_score": 0.019801980198019802
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.3,
+    "area": 0.4,
+    "accuracy": 0.00375,
+    "precision": 0.004975124378109453,
+    "recall": 0.015,
+    "f1_score": 0.007471980074719801
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.3,
+    "area": 0.3,
+    "accuracy": 0.0075,
+    "precision": 0.009900990099009901,
+    "recall": 0.03,
+    "f1_score": 0.01488833746898263
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.3,
+    "area": 0.2,
+    "accuracy": 0.0075,
+    "precision": 0.009900990099009901,
+    "recall": 0.03,
+    "f1_score": 0.01488833746898263
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.3,
+    "area": 0.5,
+    "accuracy": 0.00375,
+    "precision": 0.004975124378109453,
+    "recall": 0.015,
+    "f1_score": 0.007471980074719801
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.5,
+    "area": 0.1,
+    "accuracy": 0.04875,
+    "precision": 0.01386481802426343,
+    "recall": 0.04,
+    "f1_score": 0.02059202059202059
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.5,
+    "area": 0.4,
+    "accuracy": 0.0425,
+    "precision": 0.005244755244755245,
+    "recall": 0.015,
+    "f1_score": 0.007772020725388601
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.5,
+    "area": 0.3,
+    "accuracy": 0.04625,
+    "precision": 0.010434782608695653,
+    "recall": 0.03,
+    "f1_score": 0.015483870967741935
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.5,
+    "area": 0.2,
+    "accuracy": 0.04625,
+    "precision": 0.010434782608695653,
+    "recall": 0.03,
+    "f1_score": 0.015483870967741935
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.5,
+    "area": 0.5,
+    "accuracy": 0.0425,
+    "precision": 0.005244755244755245,
+    "recall": 0.015,
+    "f1_score": 0.007772020725388601
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.7,
+    "area": 0.1,
+    "accuracy": 0.69,
+    "precision": 0.02,
+    "recall": 0.005,
+    "f1_score": 0.008
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.7,
+    "area": 0.4,
+    "accuracy": 0.68875,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.7,
+    "area": 0.3,
+    "accuracy": 0.69,
+    "precision": 0.02,
+    "recall": 0.005,
+    "f1_score": 0.008
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.7,
+    "area": 0.2,
+    "accuracy": 0.69,
+    "precision": 0.02,
+    "recall": 0.005,
+    "f1_score": 0.008
+  },
+  {
+    "stride_ratio": 0.25,
+    "match": 0.7,
+    "area": 0.5,
+    "accuracy": 0.68875,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.2,
+    "area": 0.1,
+    "accuracy": 0.00625,
+    "precision": 0.008264462809917356,
+    "recall": 0.025,
+    "f1_score": 0.012422360248447204
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.2,
+    "area": 0.4,
+    "accuracy": 0.0025,
+    "precision": 0.0033222591362126247,
+    "recall": 0.01,
+    "f1_score": 0.004987531172069825
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.2,
+    "area": 0.3,
+    "accuracy": 0.0025,
+    "precision": 0.0033222591362126247,
+    "recall": 0.01,
+    "f1_score": 0.004987531172069825
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.2,
+    "area": 0.2,
+    "accuracy": 0.00375,
+    "precision": 0.004975124378109453,
+    "recall": 0.015,
+    "f1_score": 0.007471980074719801
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.2,
+    "area": 0.5,
+    "accuracy": 0.0025,
+    "precision": 0.0033222591362126247,
+    "recall": 0.01,
+    "f1_score": 0.004987531172069825
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.4,
+    "area": 0.1,
+    "accuracy": 0.0175,
+    "precision": 0.008389261744966443,
+    "recall": 0.025,
+    "f1_score": 0.01256281407035176
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.4,
+    "area": 0.4,
+    "accuracy": 0.01375,
+    "precision": 0.003372681281618887,
+    "recall": 0.01,
+    "f1_score": 0.005044136191677175
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.4,
+    "area": 0.3,
+    "accuracy": 0.01375,
+    "precision": 0.003372681281618887,
+    "recall": 0.01,
+    "f1_score": 0.005044136191677175
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.4,
+    "area": 0.2,
+    "accuracy": 0.015,
+    "precision": 0.005050505050505051,
+    "recall": 0.015,
+    "f1_score": 0.007556675062972292
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.4,
+    "area": 0.5,
+    "accuracy": 0.01375,
+    "precision": 0.003372681281618887,
+    "recall": 0.01,
+    "f1_score": 0.005044136191677175
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.6,
+    "area": 0.1,
+    "accuracy": 0.46375,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.6,
+    "area": 0.4,
+    "accuracy": 0.46375,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.6,
+    "area": 0.3,
+    "accuracy": 0.46375,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.6,
+    "area": 0.2,
+    "accuracy": 0.46375,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.6,
+    "area": 0.5,
+    "accuracy": 0.46375,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.3,
+    "area": 0.1,
+    "accuracy": 0.00625,
+    "precision": 0.008264462809917356,
+    "recall": 0.025,
+    "f1_score": 0.012422360248447204
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.3,
+    "area": 0.4,
+    "accuracy": 0.0025,
+    "precision": 0.0033222591362126247,
+    "recall": 0.01,
+    "f1_score": 0.004987531172069825
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.3,
+    "area": 0.3,
+    "accuracy": 0.0025,
+    "precision": 0.0033222591362126247,
+    "recall": 0.01,
+    "f1_score": 0.004987531172069825
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.3,
+    "area": 0.2,
+    "accuracy": 0.00375,
+    "precision": 0.004975124378109453,
+    "recall": 0.015,
+    "f1_score": 0.007471980074719801
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.3,
+    "area": 0.5,
+    "accuracy": 0.0025,
+    "precision": 0.0033222591362126247,
+    "recall": 0.01,
+    "f1_score": 0.004987531172069825
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.5,
+    "area": 0.1,
+    "accuracy": 0.10375,
+    "precision": 0.0057361376673040155,
+    "recall": 0.015,
+    "f1_score": 0.008298755186721992
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.5,
+    "area": 0.4,
+    "accuracy": 0.10125,
+    "precision": 0.0019193857965451055,
+    "recall": 0.005,
+    "f1_score": 0.0027739251040221915
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.5,
+    "area": 0.3,
+    "accuracy": 0.10125,
+    "precision": 0.0019193857965451055,
+    "recall": 0.005,
+    "f1_score": 0.0027739251040221915
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.5,
+    "area": 0.2,
+    "accuracy": 0.10125,
+    "precision": 0.0019193857965451055,
+    "recall": 0.005,
+    "f1_score": 0.0027739251040221915
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.5,
+    "area": 0.5,
+    "accuracy": 0.10125,
+    "precision": 0.0019193857965451055,
+    "recall": 0.005,
+    "f1_score": 0.0027739251040221915
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.7,
+    "area": 0.1,
+    "accuracy": 0.72,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.7,
+    "area": 0.4,
+    "accuracy": 0.72,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.7,
+    "area": 0.3,
+    "accuracy": 0.72,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.7,
+    "area": 0.2,
+    "accuracy": 0.72,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 0.5,
+    "match": 0.7,
+    "area": 0.5,
+    "accuracy": 0.72,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.2,
+    "area": 0.1,
+    "accuracy": 0.01625,
+    "precision": 0.021207177814029365,
+    "recall": 0.065,
+    "f1_score": 0.03198031980319803
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.2,
+    "area": 0.4,
+    "accuracy": 0.00625,
+    "precision": 0.008264462809917356,
+    "recall": 0.025,
+    "f1_score": 0.012422360248447204
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.2,
+    "area": 0.3,
+    "accuracy": 0.0075,
+    "precision": 0.009900990099009901,
+    "recall": 0.03,
+    "f1_score": 0.01488833746898263
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.2,
+    "area": 0.2,
+    "accuracy": 0.01125,
+    "precision": 0.014778325123152709,
+    "recall": 0.045,
+    "f1_score": 0.022249690976514216
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.2,
+    "area": 0.5,
+    "accuracy": 0.00625,
+    "precision": 0.008264462809917356,
+    "recall": 0.025,
+    "f1_score": 0.012422360248447204
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.4,
+    "area": 0.1,
+    "accuracy": 0.0475,
+    "precision": 0.022108843537414966,
+    "recall": 0.065,
+    "f1_score": 0.03299492385786802
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.4,
+    "area": 0.4,
+    "accuracy": 0.0375,
+    "precision": 0.008620689655172414,
+    "recall": 0.025,
+    "f1_score": 0.01282051282051282
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.4,
+    "area": 0.3,
+    "accuracy": 0.03875,
+    "precision": 0.010327022375215147,
+    "recall": 0.03,
+    "f1_score": 0.015364916773367477
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.4,
+    "area": 0.2,
+    "accuracy": 0.0425,
+    "precision": 0.015410958904109588,
+    "recall": 0.045,
+    "f1_score": 0.02295918367346939
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.4,
+    "area": 0.5,
+    "accuracy": 0.0375,
+    "precision": 0.008620689655172414,
+    "recall": 0.025,
+    "f1_score": 0.01282051282051282
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.6,
+    "area": 0.1,
+    "accuracy": 0.5975,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.6,
+    "area": 0.4,
+    "accuracy": 0.5975,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.6,
+    "area": 0.3,
+    "accuracy": 0.5975,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.6,
+    "area": 0.2,
+    "accuracy": 0.5975,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.6,
+    "area": 0.5,
+    "accuracy": 0.5975,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.3,
+    "area": 0.1,
+    "accuracy": 0.01625,
+    "precision": 0.021207177814029365,
+    "recall": 0.065,
+    "f1_score": 0.03198031980319803
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.3,
+    "area": 0.4,
+    "accuracy": 0.00625,
+    "precision": 0.008264462809917356,
+    "recall": 0.025,
+    "f1_score": 0.012422360248447204
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.3,
+    "area": 0.3,
+    "accuracy": 0.0075,
+    "precision": 0.009900990099009901,
+    "recall": 0.03,
+    "f1_score": 0.01488833746898263
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.3,
+    "area": 0.2,
+    "accuracy": 0.01125,
+    "precision": 0.014778325123152709,
+    "recall": 0.045,
+    "f1_score": 0.022249690976514216
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.3,
+    "area": 0.5,
+    "accuracy": 0.00625,
+    "precision": 0.008264462809917356,
+    "recall": 0.025,
+    "f1_score": 0.012422360248447204
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.5,
+    "area": 0.1,
+    "accuracy": 0.25125,
+    "precision": 0.01927710843373494,
+    "recall": 0.04,
+    "f1_score": 0.026016260162601626
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.5,
+    "area": 0.4,
+    "accuracy": 0.2425,
+    "precision": 0.0024509803921568627,
+    "recall": 0.005,
+    "f1_score": 0.003289473684210526
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.5,
+    "area": 0.3,
+    "accuracy": 0.24375,
+    "precision": 0.004889975550122249,
+    "recall": 0.01,
+    "f1_score": 0.006568144499178982
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.5,
+    "area": 0.2,
+    "accuracy": 0.24625,
+    "precision": 0.009732360097323601,
+    "recall": 0.02,
+    "f1_score": 0.01309328968903437
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.5,
+    "area": 0.5,
+    "accuracy": 0.2425,
+    "precision": 0.0024509803921568627,
+    "recall": 0.005,
+    "f1_score": 0.003289473684210526
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.7,
+    "area": 0.1,
+    "accuracy": 0.7325,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.7,
+    "area": 0.4,
+    "accuracy": 0.7325,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.7,
+    "area": 0.3,
+    "accuracy": 0.7325,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.7,
+    "area": 0.2,
+    "accuracy": 0.7325,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  {
+    "stride_ratio": 1.0,
+    "match": 0.7,
+    "area": 0.5,
+    "accuracy": 0.7325,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  }
+]

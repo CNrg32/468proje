@@ -1,0 +1,7726 @@
+{
+  "class": "boat",
+  "stride_ratio": 1.0,
+  "match_threshold": 0.7,
+  "area_threshold": 0.1,
+  "metrics": {
+    "accuracy": 0.5875,
+    "precision": 0.15425531914893617,
+    "recall": 0.145,
+    "f1_score": 0.14948453608247422,
+    "confusion_matrix": [
+      [
+        441,
+        159
+      ],
+      [
+        171,
+        29
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.7205882352941176,
+        "recall": 0.735,
+        "f1-score": 0.7277227722772277,
+        "support": 600.0
+      },
+      "1": {
+        "precision": 0.15425531914893617,
+        "recall": 0.145,
+        "f1-score": 0.14948453608247422,
+        "support": 200.0
+      },
+      "accuracy": 0.5875,
+      "macro avg": {
+        "precision": 0.4374217772215269,
+        "recall": 0.44,
+        "f1-score": 0.438603654179851,
+        "support": 800.0
+      },
+      "weighted avg": {
+        "precision": 0.5790050062578223,
+        "recall": 0.5875,
+        "f1-score": 0.5831632132285394,
+        "support": 800.0
+      }
+    }
+  },
+  "details": [
+    {
+      "file_name": "00018793.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5005910992622375,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003775.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5023778080940247,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021421.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6945666670799255,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018546.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5654739141464233,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003910.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6832926273345947,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022631.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6993780732154846,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00001899.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6220115423202515,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020160.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7395293116569519,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        96,
+        128,
+        128
+      ]
+    },
+    {
+      "file_name": "00002397.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7405272722244263,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        160,
+        32
+      ]
+    },
+    {
+      "file_name": "00017144.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5951963067054749,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022711.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5044235587120056,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019868.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.702099084854126,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        96,
+        160,
+        128
+      ]
+    },
+    {
+      "file_name": "00012334.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7865149974822998,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        224,
+        96,
+        256
+      ]
+    },
+    {
+      "file_name": "00022051.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.776516318321228,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        192,
+        96,
+        224
+      ]
+    },
+    {
+      "file_name": "00013383.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.629725456237793,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020296.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7108786106109619,
+      "overlap_percentage": 0.1111111111111111,
+      "box": [
+        160,
+        96,
+        192,
+        128
+      ]
+    },
+    {
+      "file_name": "00024397.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5937418937683105,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018349.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.587096631526947,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020610.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6926359534263611,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025145.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5585010051727295,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024881.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7055504322052002,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        128,
+        64,
+        160
+      ]
+    },
+    {
+      "file_name": "00009115.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5369870066642761,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004393.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5764760375022888,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022448.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5487808585166931,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022849.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7950702905654907,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        32,
+        64,
+        64
+      ]
+    },
+    {
+      "file_name": "00020204.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6498327851295471,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024005.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6684609651565552,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024804.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6835779547691345,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009535.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.655475914478302,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018755.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.506428599357605,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004836.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5504409074783325,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002815.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5687452554702759,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021089.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6527596116065979,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00010978.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7727727890014648,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        64,
+        64,
+        96
+      ]
+    },
+    {
+      "file_name": "00004584.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6251465082168579,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019109.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5655433535575867,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019428.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8321199417114258,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        0,
+        96,
+        32
+      ]
+    },
+    {
+      "file_name": "00017614.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.512569785118103,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009143.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6201069951057434,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017415.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7520509362220764,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        192,
+        128,
+        224
+      ]
+    },
+    {
+      "file_name": "00003626.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8158292174339294,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        224,
+        64,
+        256
+      ]
+    },
+    {
+      "file_name": "00001013.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7667251229286194,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        32,
+        96,
+        64
+      ]
+    },
+    {
+      "file_name": "00009244.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7541453838348389,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00025529.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7353962063789368,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        192,
+        192,
+        224
+      ]
+    },
+    {
+      "file_name": "00022396.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5556783080101013,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025196.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6810262203216553,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023001.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6246634721755981,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003439.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5629890561103821,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003747.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5519478917121887,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023156.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6531498432159424,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021801.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6713848114013672,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004137.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6498000025749207,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021451.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6590303778648376,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00010528.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6285373568534851,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002154.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.57353276014328,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019579.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7147228121757507,
+      "overlap_percentage": 0.0,
+      "box": [
+        224,
+        64,
+        256,
+        96
+      ]
+    },
+    {
+      "file_name": "00002050.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6271498203277588,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00000206.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.625461757183075,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00012068.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6400876641273499,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022215.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5421152114868164,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002169.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5734338164329529,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00011951.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5964490175247192,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008106.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5139981508255005,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013798.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5775617957115173,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023119.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5608863830566406,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019652.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8367262482643127,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        0,
+        64,
+        32
+      ]
+    },
+    {
+      "file_name": "00016493.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6513431072235107,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003473.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7156303524971008,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        192,
+        192,
+        224
+      ]
+    },
+    {
+      "file_name": "00015053.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6417167782783508,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013159.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6399958729743958,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014594.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5604135990142822,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019870.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.75780189037323,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        0,
+        224,
+        32
+      ]
+    },
+    {
+      "file_name": "00025775.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7534862756729126,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        160,
+        32,
+        192
+      ]
+    },
+    {
+      "file_name": "00008853.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.654434084892273,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025113.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6703811287879944,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014492.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.672879159450531,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009150.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6779955625534058,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008816.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5731513500213623,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021198.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7314845323562622,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        192,
+        96,
+        224
+      ]
+    },
+    {
+      "file_name": "00003651.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.597533643245697,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024619.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4911247789859772,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019714.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7313592433929443,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        64,
+        128,
+        96
+      ]
+    },
+    {
+      "file_name": "00003954.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5359553694725037,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022486.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6556815505027771,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004468.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.608025312423706,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023225.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7989747524261475,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        64,
+        128,
+        96
+      ]
+    },
+    {
+      "file_name": "00003926.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5906296968460083,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015478.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7456097602844238,
+      "overlap_percentage": 0.0,
+      "box": [
+        224,
+        224,
+        256,
+        256
+      ]
+    },
+    {
+      "file_name": "00019368.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6829068660736084,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023160.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7819427251815796,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        192,
+        64
+      ]
+    },
+    {
+      "file_name": "00001904.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6419124603271484,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009885.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5321252942085266,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018320.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.49715161323547363,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008179.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5365989208221436,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015296.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7447685599327087,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        128,
+        32,
+        160
+      ]
+    },
+    {
+      "file_name": "00025107.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6502856612205505,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025355.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7471635937690735,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        128,
+        224,
+        160
+      ]
+    },
+    {
+      "file_name": "00015895.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6800193190574646,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002408.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7610254287719727,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00004669.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.3728221356868744,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018684.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5044358372688293,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014058.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6936899423599243,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024711.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.49489709734916687,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024134.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5269225239753723,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017462.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7325925827026367,
+      "overlap_percentage": 0.042328042328042326,
+      "box": [
+        192,
+        0,
+        224,
+        32
+      ]
+    },
+    {
+      "file_name": "00014868.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5753690004348755,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008891.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6450582146644592,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023241.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6636090278625488,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024448.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5728686451911926,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023040.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6800057291984558,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013123.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6521276831626892,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018370.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7528908252716064,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        192,
+        64,
+        224
+      ]
+    },
+    {
+      "file_name": "00011957.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7138721942901611,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        224,
+        192,
+        256
+      ]
+    },
+    {
+      "file_name": "00010641.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6833177208900452,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018954.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.731645941734314,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        96,
+        96,
+        128
+      ]
+    },
+    {
+      "file_name": "00004786.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5237031579017639,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025006.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7229004502296448,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        192,
+        192,
+        224
+      ]
+    },
+    {
+      "file_name": "00019346.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6777287125587463,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018241.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.680031955242157,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015277.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7353471517562866,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        224,
+        32,
+        256
+      ]
+    },
+    {
+      "file_name": "00017812.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7507507801055908,
+      "overlap_percentage": 0.7446153846153846,
+      "box": [
+        32,
+        192,
+        64,
+        224
+      ]
+    },
+    {
+      "file_name": "00017527.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.8350589871406555,
+      "overlap_percentage": 0.5,
+      "box": [
+        32,
+        128,
+        64,
+        160
+      ]
+    },
+    {
+      "file_name": "00024605.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6820708513259888,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023344.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.647125780582428,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00001864.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6855485439300537,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021413.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6159091591835022,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018231.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6969830393791199,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009097.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6294665932655334,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021631.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7874739170074463,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00023675.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6270571351051331,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024694.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6879386901855469,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016615.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6687428951263428,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014102.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7114093899726868,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        128,
+        128,
+        160
+      ]
+    },
+    {
+      "file_name": "00017002.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5625278353691101,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024008.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6856158375740051,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022165.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6244252324104309,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009421.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5786787271499634,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017609.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6423182487487793,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017047.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5752371549606323,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003628.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6556094884872437,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022251.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5478931069374084,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021897.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7774887084960938,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        160,
+        64,
+        192
+      ]
+    },
+    {
+      "file_name": "00017253.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6947789192199707,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018798.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5245897173881531,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004823.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7142515778541565,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00021818.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6630738377571106,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009903.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5477439165115356,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021502.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6110161542892456,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009484.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.46799033880233765,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014338.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7292147874832153,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        32,
+        224,
+        64
+      ]
+    },
+    {
+      "file_name": "00018402.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.705938458442688,
+      "overlap_percentage": 0.6666666666666666,
+      "box": [
+        96,
+        96,
+        128,
+        128
+      ]
+    },
+    {
+      "file_name": "00019727.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6216708421707153,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015794.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6033454537391663,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00010700.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7365891933441162,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        224,
+        96,
+        256
+      ]
+    },
+    {
+      "file_name": "00016728.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5972873568534851,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003404.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5067023038864136,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015790.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.651749312877655,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004008.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7976294159889221,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        224,
+        160,
+        256
+      ]
+    },
+    {
+      "file_name": "00024113.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.3868275284767151,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013000.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7262830138206482,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        96,
+        192,
+        128
+      ]
+    },
+    {
+      "file_name": "00023523.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.43641313910484314,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022834.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4993375241756439,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023224.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6699028015136719,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008331.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.45702093839645386,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017759.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.521003782749176,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019307.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6188862323760986,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025797.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5620374083518982,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008837.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7917712330818176,
+      "overlap_percentage": 0.33165266106442576,
+      "box": [
+        0,
+        64,
+        64,
+        128
+      ]
+    },
+    {
+      "file_name": "00018471.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5890225172042847,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004169.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5296300649642944,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020095.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6105659604072571,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00011719.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6198723316192627,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013350.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6252226233482361,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025168.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.42711320519447327,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020094.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5304223895072937,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019301.png",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7748754024505615,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        160,
+        128,
+        192
+      ]
+    },
+    {
+      "file_name": "00025240.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7159473299980164,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        160,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00025332.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5702921748161316,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008007.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5180598497390747,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019649.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7151932120323181,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        0,
+        192,
+        32
+      ]
+    },
+    {
+      "file_name": "00013948.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7935273051261902,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        224,
+        160,
+        256
+      ]
+    },
+    {
+      "file_name": "00019018.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7266137003898621,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        192,
+        192,
+        256
+      ]
+    },
+    {
+      "file_name": "00016076.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6199597716331482,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019839.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6950629949569702,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019703.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5933869481086731,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00006796.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6394639015197754,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020069.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.8281155228614807,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        32,
+        224,
+        64
+      ]
+    },
+    {
+      "file_name": "00002748.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7366952300071716,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        32,
+        32,
+        64
+      ]
+    },
+    {
+      "file_name": "00020202.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7189105749130249,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        32,
+        192,
+        64
+      ]
+    },
+    {
+      "file_name": "00018534.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4375397861003876,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022557.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6958603858947754,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009711.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7736956477165222,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        160,
+        96,
+        192
+      ]
+    },
+    {
+      "file_name": "00022845.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8188529014587402,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        160,
+        32
+      ]
+    },
+    {
+      "file_name": "00022512.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6984280943870544,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017777.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5650615096092224,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025584.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.669980525970459,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013306.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6773049831390381,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009039.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7541341781616211,
+      "overlap_percentage": 1.0,
+      "box": [
+        0,
+        128,
+        64,
+        192
+      ]
+    },
+    {
+      "file_name": "00022984.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7727457284927368,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "file_name": "00010515.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7526454925537109,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        32,
+        224,
+        64
+      ]
+    },
+    {
+      "file_name": "00019420.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7436118125915527,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        0,
+        128,
+        32
+      ]
+    },
+    {
+      "file_name": "00018928.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7798302173614502,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        224,
+        192,
+        256
+      ]
+    },
+    {
+      "file_name": "00024530.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6109717488288879,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022052.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5685044527053833,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017938.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7286698818206787,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        0,
+        128,
+        64
+      ]
+    },
+    {
+      "file_name": "00019376.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.638556718826294,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017653.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6191998720169067,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00005680.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6347551345825195,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016096.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6807700991630554,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022035.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6569499373435974,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019578.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5511165261268616,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008658.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.618523359298706,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020197.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6837441325187683,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014537.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7928668856620789,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        224,
+        160,
+        256
+      ]
+    },
+    {
+      "file_name": "00002826.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6337881088256836,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00012772.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.711613118648529,
+      "overlap_percentage": 1.0,
+      "box": [
+        0,
+        128,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00018440.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6295167207717896,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019513.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7111777067184448,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        192,
+        160,
+        224
+      ]
+    },
+    {
+      "file_name": "00024155.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8049370646476746,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        160,
+        32
+      ]
+    },
+    {
+      "file_name": "00020295.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.8143041133880615,
+      "overlap_percentage": 0.1,
+      "box": [
+        64,
+        160,
+        96,
+        192
+      ]
+    },
+    {
+      "file_name": "00016619.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7020720839500427,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        32,
+        32,
+        64
+      ]
+    },
+    {
+      "file_name": "00011379.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7834525108337402,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        192,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00021997.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6957839727401733,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016023.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7510344386100769,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        0,
+        224,
+        32
+      ]
+    },
+    {
+      "file_name": "00003913.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7367550730705261,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        224,
+        64,
+        256
+      ]
+    },
+    {
+      "file_name": "00017222.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7504613995552063,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        64,
+        128,
+        128
+      ]
+    },
+    {
+      "file_name": "00003228.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6897051930427551,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017360.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7038561701774597,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        0,
+        128,
+        64
+      ]
+    },
+    {
+      "file_name": "00009894.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7452431917190552,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00019389.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6938112378120422,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002508.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7541467547416687,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        32,
+        192,
+        64
+      ]
+    },
+    {
+      "file_name": "00009412.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7341194152832031,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        96,
+        192,
+        128
+      ]
+    },
+    {
+      "file_name": "00015045.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5025767087936401,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021022.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7296408414840698,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        64,
+        96,
+        96
+      ]
+    },
+    {
+      "file_name": "00025806.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5628608465194702,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021690.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5587217211723328,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00010876.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6699305176734924,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003244.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6716833114624023,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020601.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6150999665260315,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008961.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7229936122894287,
+      "overlap_percentage": 1.0,
+      "box": [
+        0,
+        128,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00005745.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.45678916573524475,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021563.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.721424400806427,
+      "overlap_percentage": 0.12018779342723004,
+      "box": [
+        32,
+        160,
+        64,
+        192
+      ]
+    },
+    {
+      "file_name": "00023547.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4242306351661682,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017126.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5887418985366821,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008772.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6523861289024353,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003992.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5339999794960022,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024651.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7261823415756226,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        32,
+        128,
+        64
+      ]
+    },
+    {
+      "file_name": "00018142.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6860560774803162,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021260.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6618062257766724,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020051.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.798874020576477,
+      "overlap_percentage": 0.1344046749452155,
+      "box": [
+        64,
+        64,
+        128,
+        128
+      ]
+    },
+    {
+      "file_name": "00002756.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.598670244216919,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00012912.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6635486483573914,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020026.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6830822229385376,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021851.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6455101370811462,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00012022.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7851784825325012,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        192,
+        96,
+        224
+      ]
+    },
+    {
+      "file_name": "00016614.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6185808777809143,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002268.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6225195527076721,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016920.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.785281240940094,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        128,
+        128,
+        192
+      ]
+    },
+    {
+      "file_name": "00014765.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7174625992774963,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        64,
+        32,
+        96
+      ]
+    },
+    {
+      "file_name": "00016424.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.701856255531311,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        128,
+        224,
+        160
+      ]
+    },
+    {
+      "file_name": "00008838.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6617729067802429,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024032.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.579626739025116,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023653.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4224793016910553,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022041.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.65912264585495,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023809.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7584153413772583,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        0,
+        64,
+        32
+      ]
+    },
+    {
+      "file_name": "00025269.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5639153718948364,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002253.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6432890892028809,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020268.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7095791101455688,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00019978.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6892603635787964,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008932.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7540884017944336,
+      "overlap_percentage": 0.09722222222222222,
+      "box": [
+        128,
+        32,
+        160,
+        64
+      ]
+    },
+    {
+      "file_name": "00023956.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6555976271629333,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024980.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6332269906997681,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025266.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.601425051689148,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009085.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6858323812484741,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003062.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.36098819971084595,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003837.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5249404311180115,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00007935.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5926008820533752,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017813.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5899569392204285,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025263.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6190556287765503,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023578.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.765093982219696,
+      "overlap_percentage": 0.16666666666666666,
+      "box": [
+        128,
+        160,
+        160,
+        192
+      ]
+    },
+    {
+      "file_name": "00025803.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6155374646186829,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009995.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7289896607398987,
+      "overlap_percentage": 1.0,
+      "box": [
+        128,
+        128,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00010108.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5798288583755493,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025769.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.716853141784668,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        0,
+        192,
+        32
+      ]
+    },
+    {
+      "file_name": "00003674.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6504742503166199,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017192.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5675235986709595,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025076.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6345642805099487,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019102.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5697943568229675,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002109.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4396052658557892,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019498.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6706914901733398,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003049.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5106760263442993,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021422.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.588050365447998,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021612.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7072670459747314,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        64,
+        64,
+        96
+      ]
+    },
+    {
+      "file_name": "00024993.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5866057276725769,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018585.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4942746162414551,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024385.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.581615149974823,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020635.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6982863545417786,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008329.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.44720813632011414,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004484.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.40435710549354553,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009077.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5425798296928406,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017427.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7360667586326599,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        128,
+        128,
+        160
+      ]
+    },
+    {
+      "file_name": "00007859.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7835924625396729,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        224,
+        192,
+        256
+      ]
+    },
+    {
+      "file_name": "00015005.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5529147982597351,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022860.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7670760750770569,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00008411.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.48625463247299194,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018749.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5866061449050903,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015402.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7235139012336731,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        128,
+        128,
+        192
+      ]
+    },
+    {
+      "file_name": "00022382.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7314915657043457,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        64,
+        192,
+        96
+      ]
+    },
+    {
+      "file_name": "00019697.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7580947875976562,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        64,
+        32,
+        96
+      ]
+    },
+    {
+      "file_name": "00023345.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6250364184379578,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024958.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6727743148803711,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003962.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.47439250349998474,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017779.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5006064772605896,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020337.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7190679907798767,
+      "overlap_percentage": 0.16582995951417004,
+      "box": [
+        64,
+        160,
+        96,
+        192
+      ]
+    },
+    {
+      "file_name": "00021034.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6444910764694214,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016768.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6492460370063782,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024151.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6547748446464539,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022419.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.776541531085968,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        224,
+        224,
+        256
+      ]
+    },
+    {
+      "file_name": "00019538.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.595458984375,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013670.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6196011900901794,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014705.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7455034852027893,
+      "overlap_percentage": 0.014814814814814815,
+      "box": [
+        128,
+        64,
+        160,
+        96
+      ]
+    },
+    {
+      "file_name": "00020914.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6587023735046387,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021945.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6363375186920166,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025735.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.574932336807251,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025728.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7378251552581787,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "file_name": "00015037.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.564790666103363,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002516.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7594316601753235,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        192,
+        64
+      ]
+    },
+    {
+      "file_name": "00008596.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6148250699043274,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018743.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6855741739273071,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024324.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5411719083786011,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003540.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.47964370250701904,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00005222.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.715735912322998,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        224,
+        64,
+        256
+      ]
+    },
+    {
+      "file_name": "00018738.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5174200534820557,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022604.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6758345365524292,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013551.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5671265125274658,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004544.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6699161529541016,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017807.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7419934868812561,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        128,
+        256,
+        192
+      ]
+    },
+    {
+      "file_name": "00013521.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7270820140838623,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        160,
+        64,
+        192
+      ]
+    },
+    {
+      "file_name": "00021247.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5078805088996887,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015443.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6426526308059692,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00001894.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6665533781051636,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023955.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5719427466392517,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014342.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4464525580406189,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018789.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5074842572212219,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003817.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.712067186832428,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        64,
+        192,
+        96
+      ]
+    },
+    {
+      "file_name": "00024480.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4662352502346039,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025819.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6177995800971985,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018651.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7304743528366089,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        0,
+        224,
+        32
+      ]
+    },
+    {
+      "file_name": "00024083.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.538532555103302,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018956.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6724077463150024,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020030.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.49613597989082336,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018429.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7199494242668152,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        32,
+        64,
+        64
+      ]
+    },
+    {
+      "file_name": "00014960.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5068793296813965,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017513.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.4968002736568451,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018120.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6761361360549927,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017702.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5519371032714844,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019306.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5736112594604492,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00005120.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.8112900257110596,
+      "overlap_percentage": 0.4405506883604506,
+      "box": [
+        128,
+        128,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00020626.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.789009690284729,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        160,
+        96,
+        192
+      ]
+    },
+    {
+      "file_name": "00002518.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7492165565490723,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        224,
+        160,
+        256
+      ]
+    },
+    {
+      "file_name": "00024300.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6650801301002502,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00001555.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7142325639724731,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        128,
+        192,
+        160
+      ]
+    },
+    {
+      "file_name": "00019473.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7251945734024048,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        160,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00021964.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6654796600341797,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024833.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5942426919937134,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025287.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.49560049176216125,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024130.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6683629155158997,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003077.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6432744860649109,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018360.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7013095021247864,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        192,
+        192,
+        224
+      ]
+    },
+    {
+      "file_name": "00023715.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5944085717201233,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020707.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7029057741165161,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        96,
+        96,
+        128
+      ]
+    },
+    {
+      "file_name": "00012300.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6642197370529175,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00012420.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6855731010437012,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018180.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6293010115623474,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021106.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7202784419059753,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00024121.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7426069378852844,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        0,
+        128,
+        32
+      ]
+    },
+    {
+      "file_name": "00025765.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.771181583404541,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        160,
+        224,
+        192
+      ]
+    },
+    {
+      "file_name": "00011165.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7105906009674072,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        64,
+        192,
+        128
+      ]
+    },
+    {
+      "file_name": "00022627.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6577636003494263,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024221.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7448116540908813,
+      "overlap_percentage": 1.0,
+      "box": [
+        128,
+        128,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00010486.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5066993832588196,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022754.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7284685373306274,
+      "overlap_percentage": 0.0,
+      "box": [
+        224,
+        192,
+        256,
+        224
+      ]
+    },
+    {
+      "file_name": "00024725.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7934127449989319,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        64,
+        64,
+        96
+      ]
+    },
+    {
+      "file_name": "00016966.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7354525327682495,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        128,
+        96,
+        160
+      ]
+    },
+    {
+      "file_name": "00003864.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6011244654655457,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018024.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5918880105018616,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00011989.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6889029145240784,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008460.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5164313912391663,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008089.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6200639605522156,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025157.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.569782555103302,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003600.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.41047850251197815,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020404.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6823509931564331,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025456.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7154792547225952,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        224,
+        224,
+        256
+      ]
+    },
+    {
+      "file_name": "00023297.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7131276726722717,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        192,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00024785.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6364684700965881,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00010819.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6135920882225037,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024972.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5526199340820312,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023914.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.48604685068130493,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023857.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6530349254608154,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019461.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6244282722473145,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009059.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6226422786712646,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015090.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7890084385871887,
+      "overlap_percentage": 0.2,
+      "box": [
+        224,
+        160,
+        256,
+        192
+      ]
+    },
+    {
+      "file_name": "00025530.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6704421043395996,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019899.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7400528788566589,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        192,
+        64
+      ]
+    },
+    {
+      "file_name": "00018146.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5423568487167358,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017068.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6239938735961914,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017723.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6096476912498474,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025160.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5584989190101624,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019622.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.8371594548225403,
+      "overlap_percentage": 0.3628219484882419,
+      "box": [
+        128,
+        0,
+        256,
+        128
+      ]
+    },
+    {
+      "file_name": "00023999.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.713750422000885,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        192,
+        64
+      ]
+    },
+    {
+      "file_name": "00016810.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6540805101394653,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024457.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6972351670265198,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00001014.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4647243618965149,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022758.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7738520503044128,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        0,
+        128,
+        32
+      ]
+    },
+    {
+      "file_name": "00019795.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7490793466567993,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        64,
+        224,
+        96
+      ]
+    },
+    {
+      "file_name": "00009234.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5587772727012634,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022812.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.710364580154419,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        0,
+        224,
+        32
+      ]
+    },
+    {
+      "file_name": "00013621.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6882261633872986,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002298.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5192190408706665,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004598.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6458536982536316,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003985.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5465617179870605,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023693.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5074365735054016,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024334.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6552864909172058,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018168.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7403481602668762,
+      "overlap_percentage": 0.0,
+      "box": [
+        224,
+        224,
+        256,
+        256
+      ]
+    },
+    {
+      "file_name": "00021839.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5646911859512329,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021372.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6578115820884705,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017426.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7835224866867065,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        64,
+        256,
+        128
+      ]
+    },
+    {
+      "file_name": "00015903.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5946339964866638,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022798.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7723598480224609,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        128,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00022524.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6366274952888489,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016101.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.47964686155319214,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009080.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7254370450973511,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        192,
+        160,
+        224
+      ]
+    },
+    {
+      "file_name": "00018548.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6059712767601013,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018647.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6810868978500366,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021572.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7101066708564758,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        128,
+        64,
+        192
+      ]
+    },
+    {
+      "file_name": "00018836.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7485747933387756,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        0,
+        192,
+        32
+      ]
+    },
+    {
+      "file_name": "00009032.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7946459054946899,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        128,
+        128,
+        192
+      ]
+    },
+    {
+      "file_name": "00018309.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.46083903312683105,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020211.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.758871853351593,
+      "overlap_percentage": 0.3329253365973072,
+      "box": [
+        160,
+        192,
+        192,
+        224
+      ]
+    },
+    {
+      "file_name": "00020560.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7392808794975281,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00002272.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.591093122959137,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003604.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7698294520378113,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        32,
+        32,
+        64
+      ]
+    },
+    {
+      "file_name": "00021785.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6716731786727905,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00006799.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7174502015113831,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        64,
+        160,
+        96
+      ]
+    },
+    {
+      "file_name": "00018722.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5979727506637573,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008204.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5166473984718323,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020487.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6799442768096924,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016326.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6235894560813904,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002343.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.736590564250946,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        160,
+        32
+      ]
+    },
+    {
+      "file_name": "00025631.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5036913752555847,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020196.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6611296534538269,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023799.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6009976267814636,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020446.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.584873378276825,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008835.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7478340864181519,
+      "overlap_percentage": 0.0,
+      "box": [
+        224,
+        96,
+        256,
+        128
+      ]
+    },
+    {
+      "file_name": "00020931.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6994395852088928,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020917.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5119597911834717,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024286.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6519249677658081,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021999.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6703684329986572,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024475.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.42580941319465637,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023148.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4021453857421875,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009435.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6369304060935974,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002164.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6649397611618042,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004808.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5668026804924011,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003876.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6733784079551697,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016898.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6137844920158386,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019827.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.804830014705658,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        0,
+        96,
+        32
+      ]
+    },
+    {
+      "file_name": "00014833.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5424951910972595,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013224.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5941535234451294,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00011109.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7927485108375549,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        160,
+        64,
+        192
+      ]
+    },
+    {
+      "file_name": "00008821.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8000059723854065,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        224,
+        224,
+        256
+      ]
+    },
+    {
+      "file_name": "00020336.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7549334168434143,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        64,
+        192,
+        128
+      ]
+    },
+    {
+      "file_name": "00025762.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6985777020454407,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024043.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6240673065185547,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013499.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7857905030250549,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        224,
+        224,
+        256
+      ]
+    },
+    {
+      "file_name": "00008221.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.543307363986969,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018109.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7281380295753479,
+      "overlap_percentage": 0.9473684210526315,
+      "box": [
+        128,
+        128,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00009764.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6550455689430237,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008486.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.561555027961731,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00012447.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5070925951004028,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020615.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5939316153526306,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020650.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7076160311698914,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        160,
+        64,
+        192
+      ]
+    },
+    {
+      "file_name": "00019433.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8145405054092407,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        0,
+        192,
+        32
+      ]
+    },
+    {
+      "file_name": "00010286.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6778927445411682,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017574.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6080849170684814,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013392.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8153179883956909,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        32,
+        160,
+        64
+      ]
+    },
+    {
+      "file_name": "00018233.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7268714308738708,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        160,
+        32
+      ]
+    },
+    {
+      "file_name": "00017349.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7487162351608276,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00019170.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7556024789810181,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        128,
+        192,
+        160
+      ]
+    },
+    {
+      "file_name": "00018542.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5660603642463684,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021561.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6649760007858276,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017942.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7280286550521851,
+      "overlap_percentage": 0.75,
+      "box": [
+        192,
+        192,
+        256,
+        256
+      ]
+    },
+    {
+      "file_name": "00024518.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4618440568447113,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00010101.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6097909808158875,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019483.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7206318378448486,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        160,
+        32
+      ]
+    },
+    {
+      "file_name": "00016771.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6352410912513733,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00011112.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7511575222015381,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        96,
+        128,
+        128
+      ]
+    },
+    {
+      "file_name": "00015110.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6148951649665833,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016440.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6564823985099792,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015590.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8084596991539001,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        224,
+        64,
+        256
+      ]
+    },
+    {
+      "file_name": "00024836.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6595986485481262,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013841.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.673507571220398,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002389.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.701270580291748,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        224,
+        96,
+        256
+      ]
+    },
+    {
+      "file_name": "00019577.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.8074382543563843,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        64,
+        64,
+        128
+      ]
+    },
+    {
+      "file_name": "00022867.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5087354183197021,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00010360.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7657696008682251,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        128,
+        128,
+        192
+      ]
+    },
+    {
+      "file_name": "00017528.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7018606066703796,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        192,
+        64
+      ]
+    },
+    {
+      "file_name": "00023159.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5697739124298096,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022873.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.8047669529914856,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        96,
+        160,
+        128
+      ]
+    },
+    {
+      "file_name": "00020312.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7773670554161072,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        160,
+        224,
+        192
+      ]
+    },
+    {
+      "file_name": "00008521.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.543487012386322,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00007997.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5806174278259277,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013033.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.47654661536216736,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020428.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5848237872123718,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002030.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.40693941712379456,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019207.png",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6587687730789185,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022185.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4936234652996063,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015273.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5812700986862183,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00006594.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5731666088104248,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018810.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6212802529335022,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021242.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5610043406486511,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021487.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5704543590545654,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003779.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6557817459106445,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021447.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6948785185813904,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023651.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5801652073860168,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023722.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6319042444229126,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022881.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5686761140823364,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020979.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.53132164478302,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019045.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6541842818260193,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002939.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5970196723937988,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015460.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5876854062080383,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020347.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7916662693023682,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        64,
+        192,
+        128
+      ]
+    },
+    {
+      "file_name": "00019998.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7094700336456299,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        32,
+        160,
+        64
+      ]
+    },
+    {
+      "file_name": "00017760.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5730832815170288,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00001610.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7343683242797852,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        192,
+        160,
+        224
+      ]
+    },
+    {
+      "file_name": "00018000.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4800148606300354,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008706.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6873559951782227,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008829.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5802284479141235,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003158.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5964846611022949,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020165.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7199864387512207,
+      "overlap_percentage": 0.043478260869565216,
+      "box": [
+        96,
+        160,
+        128,
+        192
+      ]
+    },
+    {
+      "file_name": "00025719.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7332911491394043,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        224,
+        64,
+        256
+      ]
+    },
+    {
+      "file_name": "00009131.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6044900417327881,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022416.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.600864052772522,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019503.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8264067769050598,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        32,
+        128,
+        64
+      ]
+    },
+    {
+      "file_name": "00023359.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.673906683921814,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021414.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.49741458892822266,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021409.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.73879075050354,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        224,
+        192,
+        256
+      ]
+    },
+    {
+      "file_name": "00011016.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6393561959266663,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024576.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.48220914602279663,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020645.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.732696533203125,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        128,
+        96,
+        160
+      ]
+    },
+    {
+      "file_name": "00018666.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5157382488250732,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018518.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6794184446334839,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019415.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8055821061134338,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        0,
+        96,
+        32
+      ]
+    },
+    {
+      "file_name": "00021876.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.637980580329895,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017902.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.63787841796875,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003386.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.61900794506073,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022147.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5712645649909973,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015412.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.48610037565231323,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00006782.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6013486385345459,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020074.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7690660357475281,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        224,
+        64,
+        256
+      ]
+    },
+    {
+      "file_name": "00024426.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5556455850601196,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003703.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8165451288223267,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        192,
+        64,
+        256
+      ]
+    },
+    {
+      "file_name": "00002770.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8017114996910095,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        0,
+        224,
+        32
+      ]
+    },
+    {
+      "file_name": "00017124.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6742901802062988,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003960.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5679726600646973,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021698.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5013919472694397,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00012748.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6635040044784546,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017083.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5341447591781616,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020311.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6526289582252502,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025099.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6960723996162415,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017832.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6843034625053406,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023844.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7351210117340088,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        32,
+        160,
+        64
+      ]
+    },
+    {
+      "file_name": "00020126.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.614934504032135,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016958.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5941643714904785,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017932.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5624728798866272,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024681.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6908327341079712,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014764.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.730385422706604,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        0,
+        64,
+        64
+      ]
+    },
+    {
+      "file_name": "00018305.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6884288191795349,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014470.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6714670062065125,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021435.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7844007015228271,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        64,
+        64,
+        96
+      ]
+    },
+    {
+      "file_name": "00018145.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6934092044830322,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018428.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6242963075637817,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013258.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6180862784385681,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017659.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.8226647973060608,
+      "overlap_percentage": 0.0,
+      "box": [
+        224,
+        0,
+        256,
+        32
+      ]
+    },
+    {
+      "file_name": "00019915.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5539193153381348,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015070.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7289441227912903,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        128,
+        192,
+        160
+      ]
+    },
+    {
+      "file_name": "00021436.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6251006126403809,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021824.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6269734501838684,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025440.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6253260374069214,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018106.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.8356791734695435,
+      "overlap_percentage": 1.0,
+      "box": [
+        160,
+        160,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00008779.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5427575707435608,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023646.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7828495502471924,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        0,
+        128,
+        64
+      ]
+    },
+    {
+      "file_name": "00021501.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6148309707641602,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022968.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6966089606285095,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022491.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7361593246459961,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        32,
+        64,
+        64
+      ]
+    },
+    {
+      "file_name": "00018922.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7821723222732544,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        224,
+        224,
+        256
+      ]
+    },
+    {
+      "file_name": "00020516.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.49278777837753296,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009218.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5532088875770569,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023649.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.38747456669807434,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019845.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7382314205169678,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        0,
+        192,
+        32
+      ]
+    },
+    {
+      "file_name": "00003667.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5771963596343994,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004634.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5967885255813599,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021485.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4324572682380676,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017214.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6426040530204773,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017992.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5683906078338623,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002349.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6908540725708008,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008241.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.43462854623794556,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021983.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5676842927932739,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022577.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6938319206237793,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002149.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6900851726531982,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020123.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.792523205280304,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        192,
+        128,
+        224
+      ]
+    },
+    {
+      "file_name": "00015966.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6592740416526794,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023583.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5751318335533142,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016539.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6612216830253601,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002345.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5705090761184692,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008693.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4525550901889801,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009252.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5544477701187134,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015662.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.8067561388015747,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        192,
+        128,
+        224
+      ]
+    },
+    {
+      "file_name": "00022182.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6386498808860779,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023491.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6255074739456177,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023025.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6735132336616516,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023063.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7044804692268372,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        224,
+        192,
+        256
+      ]
+    },
+    {
+      "file_name": "00024887.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7649831771850586,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        192,
+        64,
+        256
+      ]
+    },
+    {
+      "file_name": "00011522.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5504009127616882,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017266.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7326627969741821,
+      "overlap_percentage": 0.16793002915451896,
+      "box": [
+        64,
+        160,
+        96,
+        192
+      ]
+    },
+    {
+      "file_name": "00006828.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5967574715614319,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016820.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.8050534725189209,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        64,
+        96,
+        96
+      ]
+    },
+    {
+      "file_name": "00025495.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6254463195800781,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020857.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7202270030975342,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        96,
+        96,
+        128
+      ]
+    },
+    {
+      "file_name": "00025527.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.503166913986206,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025125.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7691519260406494,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        64,
+        160,
+        96
+      ]
+    },
+    {
+      "file_name": "00022017.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.774330735206604,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        192,
+        160,
+        224
+      ]
+    },
+    {
+      "file_name": "00008876.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6653839349746704,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023613.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5545364618301392,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013983.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7714851498603821,
+      "overlap_percentage": 0.1875,
+      "box": [
+        192,
+        96,
+        224,
+        128
+      ]
+    },
+    {
+      "file_name": "00006614.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.799376904964447,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        192,
+        224,
+        224
+      ]
+    },
+    {
+      "file_name": "00004911.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6085893511772156,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008578.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5404906272888184,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018485.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4452827572822571,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00016867.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6688324809074402,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020096.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7734103798866272,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        64,
+        64,
+        96
+      ]
+    },
+    {
+      "file_name": "00012288.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7507083415985107,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        160,
+        32
+      ]
+    },
+    {
+      "file_name": "00008767.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5985038876533508,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003917.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6827417612075806,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008481.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5016230940818787,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019941.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.712424099445343,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        0,
+        128,
+        32
+      ]
+    },
+    {
+      "file_name": "00018785.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6837136745452881,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019632.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7764414548873901,
+      "overlap_percentage": 0.5882352941176471,
+      "box": [
+        128,
+        128,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00019464.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7298684120178223,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        0,
+        64,
+        32
+      ]
+    },
+    {
+      "file_name": "00013211.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.475663959980011,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024689.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.718826949596405,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        64,
+        224,
+        96
+      ]
+    },
+    {
+      "file_name": "00024604.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.8235526084899902,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        128,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00019957.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5787728428840637,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00010345.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6009076833724976,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009793.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6502197980880737,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025138.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.48303261399269104,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022842.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7213570475578308,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        32,
+        64,
+        64
+      ]
+    },
+    {
+      "file_name": "00008055.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4132532775402069,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002493.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4346001446247101,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017492.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7102532386779785,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        0,
+        128,
+        32
+      ]
+    },
+    {
+      "file_name": "00024819.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7250590920448303,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00017982.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7048962712287903,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        192,
+        160,
+        224
+      ]
+    },
+    {
+      "file_name": "00021465.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5694565773010254,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022690.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5381453037261963,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018227.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4434248208999634,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018472.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6171567440032959,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023363.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7681965827941895,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        0,
+        224,
+        32
+      ]
+    },
+    {
+      "file_name": "00023907.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5090648531913757,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023648.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4042094647884369,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00011220.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7243016958236694,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        96,
+        128,
+        128
+      ]
+    },
+    {
+      "file_name": "00017335.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5739965438842773,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024323.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7415671348571777,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        0,
+        192,
+        32
+      ]
+    },
+    {
+      "file_name": "00004182.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5657083988189697,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021739.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7681167125701904,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        128,
+        64,
+        192
+      ]
+    },
+    {
+      "file_name": "00023282.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5649067163467407,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022083.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5732348561286926,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003932.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5146400332450867,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021411.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.590333104133606,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023712.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6329050064086914,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019512.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7517368793487549,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        0,
+        64,
+        32
+      ]
+    },
+    {
+      "file_name": "00020033.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6060532927513123,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019382.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7200793623924255,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        160,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00016709.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4651062488555908,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024052.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6897701025009155,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00000249.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.570320188999176,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024888.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7723290324211121,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        160,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00016213.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5417340397834778,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018338.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6652352213859558,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015560.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.70013028383255,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        0,
+        192,
+        32
+      ]
+    },
+    {
+      "file_name": "00014635.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6763982772827148,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025223.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5874617695808411,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00005719.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.693569540977478,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024872.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6756102442741394,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022424.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7239052057266235,
+      "overlap_percentage": 0.07075732448866777,
+      "box": [
+        160,
+        64,
+        192,
+        96
+      ]
+    },
+    {
+      "file_name": "00002075.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7572166919708252,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        0,
+        128,
+        32
+      ]
+    },
+    {
+      "file_name": "00016118.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5455424785614014,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009038.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6400513648986816,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004096.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5991049408912659,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025467.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7633734345436096,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        128,
+        32,
+        160
+      ]
+    },
+    {
+      "file_name": "00015258.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6839500069618225,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025391.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.695023775100708,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003575.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.467769980430603,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014125.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6009522080421448,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022377.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7030911445617676,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        96,
+        224,
+        128
+      ]
+    },
+    {
+      "file_name": "00020928.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6168258190155029,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020395.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7015509009361267,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        192,
+        224,
+        224
+      ]
+    },
+    {
+      "file_name": "00024916.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6567433476448059,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019677.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.849535346031189,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        0,
+        192,
+        32
+      ]
+    },
+    {
+      "file_name": "00019044.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7235220670700073,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        192,
+        160,
+        224
+      ]
+    },
+    {
+      "file_name": "00010572.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6308394074440002,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017998.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5721769332885742,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00014077.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6174636483192444,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024391.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.43448978662490845,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017588.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6755089163780212,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023784.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.588383674621582,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018239.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6558964252471924,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024251.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6005032658576965,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008217.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.45496460795402527,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003738.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5812814831733704,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009489.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7391636371612549,
+      "overlap_percentage": 1.0,
+      "box": [
+        128,
+        128,
+        256,
+        256
+      ]
+    },
+    {
+      "file_name": "00022958.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.696678876876831,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003799.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6936142444610596,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025358.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6071978807449341,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024224.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.37115222215652466,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018112.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6955464482307434,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022835.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6259722113609314,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022788.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6354081630706787,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021532.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6652935147285461,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015199.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.501218855381012,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003114.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7616927027702332,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        128,
+        128,
+        160
+      ]
+    },
+    {
+      "file_name": "00019672.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7623710036277771,
+      "overlap_percentage": 0.22195121951219512,
+      "box": [
+        128,
+        128,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00018696.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.537548303604126,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00021757.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5793406963348389,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004636.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6723480820655823,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019163.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6988601684570312,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025627.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8219832181930542,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        192,
+        128,
+        224
+      ]
+    },
+    {
+      "file_name": "00016032.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.7741013169288635,
+      "overlap_percentage": 0.12794612794612795,
+      "box": [
+        128,
+        128,
+        160,
+        160
+      ]
+    },
+    {
+      "file_name": "00002672.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7222663760185242,
+      "overlap_percentage": 0.0,
+      "box": [
+        0,
+        32,
+        32,
+        64
+      ]
+    },
+    {
+      "file_name": "00008696.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.48640379309654236,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004125.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6648004651069641,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022612.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6452584266662598,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024455.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7744857668876648,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        0,
+        128,
+        64
+      ]
+    },
+    {
+      "file_name": "00024058.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5943093299865723,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00025725.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6769924163818359,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024261.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5758573412895203,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023944.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7059265971183777,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        192,
+        96,
+        224
+      ]
+    },
+    {
+      "file_name": "00017204.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6628648042678833,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023886.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7713876366615295,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        160,
+        32
+      ]
+    },
+    {
+      "file_name": "00022021.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7015352845191956,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        224,
+        128,
+        256
+      ]
+    },
+    {
+      "file_name": "00002045.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.469696044921875,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020251.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5629175305366516,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003792.jpg",
+      "true_object": true,
+      "predicted": true,
+      "score": 0.8011770248413086,
+      "overlap_percentage": 1.0,
+      "box": [
+        192,
+        128,
+        256,
+        192
+      ]
+    },
+    {
+      "file_name": "00022907.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7117999196052551,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        0,
+        128,
+        32
+      ]
+    },
+    {
+      "file_name": "00017371.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5661439299583435,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022649.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7082871198654175,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        64,
+        128,
+        96
+      ]
+    },
+    {
+      "file_name": "00023377.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.670770525932312,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00012807.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5608383417129517,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00020492.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5508793592453003,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00015351.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7934861183166504,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        192,
+        256,
+        256
+      ]
+    },
+    {
+      "file_name": "00021541.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.48317596316337585,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024502.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.610724925994873,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002483.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6089848279953003,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002248.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.4774503707885742,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00013057.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7671305537223816,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        224,
+        160,
+        256
+      ]
+    },
+    {
+      "file_name": "00001729.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5397329926490784,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018601.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.5501288175582886,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017549.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7363068461418152,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        192,
+        192,
+        224
+      ]
+    },
+    {
+      "file_name": "00020315.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7716672420501709,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        96,
+        128,
+        128
+      ]
+    },
+    {
+      "file_name": "00021399.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.8005203604698181,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        96,
+        96,
+        128
+      ]
+    },
+    {
+      "file_name": "00020267.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.8173099160194397,
+      "overlap_percentage": 0.0,
+      "box": [
+        64,
+        128,
+        96,
+        160
+      ]
+    },
+    {
+      "file_name": "00024841.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6587310433387756,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022111.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5741344094276428,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00022821.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5899541974067688,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00002227.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7067399621009827,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        0,
+        192,
+        64
+      ]
+    },
+    {
+      "file_name": "00018126.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6072055697441101,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018325.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7263776063919067,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        224,
+        224,
+        256
+      ]
+    },
+    {
+      "file_name": "00023489.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5654624700546265,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00008330.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6205379366874695,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019335.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7029423713684082,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        96,
+        192,
+        128
+      ]
+    },
+    {
+      "file_name": "00006757.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6099042296409607,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018953.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6806758046150208,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00005762.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.65949547290802,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00003916.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.8014359474182129,
+      "overlap_percentage": 0.0,
+      "box": [
+        192,
+        0,
+        224,
+        32
+      ]
+    },
+    {
+      "file_name": "00023379.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5866916179656982,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00017392.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6818796992301941,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018636.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6224392652511597,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019897.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6133172512054443,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00018699.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5471477508544922,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00024526.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6833591461181641,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00019753.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7791769504547119,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        192,
+        128,
+        224
+      ]
+    },
+    {
+      "file_name": "00021062.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5638554692268372,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00000232.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7444733381271362,
+      "overlap_percentage": 0.0,
+      "box": [
+        32,
+        0,
+        64,
+        32
+      ]
+    },
+    {
+      "file_name": "00021295.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6138110756874084,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00004680.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.48741331696510315,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00010680.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7616047263145447,
+      "overlap_percentage": 0.0,
+      "box": [
+        160,
+        160,
+        192,
+        192
+      ]
+    },
+    {
+      "file_name": "00010923.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.5785509347915649,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00023421.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6262105703353882,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00005208.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.6044051647186279,
+      "overlap_percentage": 0.0,
+      "box": null
+    },
+    {
+      "file_name": "00009157.jpg",
+      "true_object": true,
+      "predicted": false,
+      "score": 0.7969682216644287,
+      "overlap_percentage": 0.0,
+      "box": [
+        96,
+        160,
+        128,
+        192
+      ]
+    },
+    {
+      "file_name": "00025802.jpg",
+      "true_object": false,
+      "predicted": true,
+      "score": 0.7343973517417908,
+      "overlap_percentage": 0.0,
+      "box": [
+        128,
+        32,
+        160,
+        64
+      ]
+    },
+    {
+      "file_name": "00000995.jpg",
+      "true_object": false,
+      "predicted": false,
+      "score": 0.6640452146530151,
+      "overlap_percentage": 0.0,
+      "box": null
+    }
+  ]
+}
